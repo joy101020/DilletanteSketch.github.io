@@ -1,0 +1,125 @@
+*
+{
+margin: 0;
+padding: 0;
+}
+/*--------Navigation-------*/
+#nav-bar
+{
+positon:sticky;
+top: 0;
+z-index: 10;
+}
+.navbar-brand img
+{
+ height: 60px;
+ padding-left: 20px;
+}
+.navbar-nav li
+{
+padding: 0 10px;
+}
+.navbar-nav li a
+{
+float: right;
+text-align: left;
+}
+#nav-bar ul li a:hover
+{
+color: #007bff!important;
+}
+.navbar
+{
+background: #fff;
+}
+.navbar-toggler
+{
+border: none!important;
+}
+.nav-link
+{
+color: #555!important;
+font-weight: 600;
+font-size: 16px;
+}
+.sub-navbar-1
+{
+ display: none;
+}
+.navbar-nav ul li:hover .sub-navbar-1
+{
+display: block;
+position: absolute;
+background: rgb(229,229,229);
+margin-top: 15px;
+margin-left: 15px;
+}
+.navbar-nav ul li:hover .sub-navbar-1 ul
+{
+display: block;
+margin: 10px;
+}
+/*---------Achievements----------*/
+#achievements
+{
+background: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url(C:\Users\Srinjoy@20Das\Documents\GitHub\DilletanteSketch.github.io\Saved%20Pictures\page9.jpg);
+background-size: cover;
+background-position: center;
+color: #efefef  !important;
+background-attachment: fixed;
+padding-top: 20px;
+padding-bottom: 2000px;
+}
+#achievements h1
+{
+text-align: center;
+color:#efefef !important;
+padding-bottom: 10px;
+}
+.gallery
+{
+margin: 10px 50px;
+}
+
+.gallery img{
+transition: 1s;
+-webkit-filter: blur(5px);
+padding: 15px;
+}
+.gallery img:hover{
+filter: greyscale(100%);
+-webkit-filter: blur(0px);
+transform: scale(1.1);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
